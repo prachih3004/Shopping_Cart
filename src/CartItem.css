@@ -1,0 +1,27 @@
+.CartItem{
+	margin-top: 2em;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.CartItem div{
+	width: 25%;
+	/*text-align: center;
+*/
+}
+
+.CartItem button{
+	width:30px;
+	height: 30px;
+	border-radius: 6px;
+	background-color:#A9A9A9;
+	margin: 0px 6px;
+	border:none;
+	font-size: 14px;
+
+}
+
+.CartItem button:disabled{
+		background-color: 	#D3D3D3;
+}
